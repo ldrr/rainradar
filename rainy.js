@@ -46,7 +46,7 @@ module.exports = function(username, password, callback) {
 	request.end();	
 	
 	var imageName = function(lastImage, callback) {
-		var file = fs.createWriteStream('images/'+lastImage);
+		//var file = fs.createWriteStream('images/'+lastImage);
 		var parsedUrl = url.parse('http://www.flug-wetter.at/radar/all_inkl/images/'+ lastImage);
 		if(parsedUrl.host == null){
 			console.log(parsedUrl);
@@ -69,8 +69,8 @@ module.exports = function(username, password, callback) {
 		    });
 		    res.on('end', function(){
 			    var buffer = new Buffer(str, 'binary');
-				file.write(buffer);
-				file.end();
+		//		file.write(buffer);
+		//		file.end();
 				callback(null, buffer);
 				return;
 		    });	
