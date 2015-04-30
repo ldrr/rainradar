@@ -1,0 +1,24 @@
+{
+  "name": "rainradar",
+  "version": "0.1.0",
+  "description": "Rainradar",
+  "main": "program.js",
+  "scripts": {
+    "start": "node program.js ledererc ledererc"
+  },
+  "dependencies": {
+  },
+  "engines": {
+    "node": "0.12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ldrr/rainradar"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Rainradar",
+  "description": "A nodeJS app which shows the austrocontrol rain radar image",
+  "repository": "https://github.com/ldrr/rainradar",
+  "keywords": ["node", "rainradar", "static"]
+}
