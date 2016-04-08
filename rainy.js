@@ -2,8 +2,6 @@
 module.exports = function(username, password, callback) {
 	var http = require('http');
 	var url  = require('url');
-	var fs = require('fs');
-
 
 	var lastImage;
 	
